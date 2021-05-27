@@ -17,7 +17,6 @@ bool IsHit(const Rect& rcA, const Rect& rcB)
     sighX /= abs(sighX);
     sighY /= abs(sighY);
 
-    // auto DifX2 = abs(rcB.center.x -rcA.center.x))
     int DifX = rcB.center.x - rcA.center.x;
     int DifY = rcB.center.y - rcA.center.y;
     //if (abs(DifX) < (rcA.w + rcB.w))
@@ -75,9 +74,6 @@ bool IsHit(const Circle& cA, const Circle& cB)
         return true;
     }
 
-    //auto totalRAD = cA.radius + cB.radius;
-    //return totalRAD = 
-
     return false;
 }
 
@@ -86,7 +82,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
 
     SetGraphMode(1024, 768, 32);
     ChangeWindowMode(true);
-    SetWindowText(L"矩形当たり判定 2016002_伊勢拓晟");
+    SetWindowText(L"2016002_伊勢拓晟 ※GitHubテスト");
 
 
     //Rect RcA{ 100,100,50,50 };
