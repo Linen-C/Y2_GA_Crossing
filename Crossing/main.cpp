@@ -19,6 +19,7 @@ bool IsHit(const Rect& rcA, const Rect& rcB)
 
     int DifX = rcB.center.x - rcA.center.x;
     int DifY = rcB.center.y - rcA.center.y;
+
     //if (abs(DifX) < (rcA.w + rcB.w))
     //{
     //    DifX *= 0.5;
@@ -82,7 +83,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
 
     SetGraphMode(1024, 768, 32);
     ChangeWindowMode(true);
-    SetWindowText(L"2016002_ˆÉ¨‘ñî ¦GitHubƒeƒXƒg");
+    SetWindowText(L"Œð·”»’è");
 
 
     //Rect RcA{ 100,100,50,50 };
